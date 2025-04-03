@@ -41,7 +41,7 @@ These columns are used for demographic analysis and clinical insights into OCD p
 2. **PowerBi Health Analytics Dashboard.pdf**:  
    This Jupyter notebook provides additional analysis that complements the primary analysis. It includes exploratory data analysis, visualizations, and other insights relevant to the project’s goals.
 
-3. **Other Excel/CSV files **
+3. **Other Excel/CSV files**:
    These excel files contain data that as generated from the SQL queries.
 
 ## Requirements
