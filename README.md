@@ -38,31 +38,18 @@ These columns are used for demographic analysis and clinical insights into OCD p
    - Computing the average obsession scores for different patient groups.
    - Aggregating data and calculating percentages based on gender distributions.
 
-2. **LoanAnalysisProject.ipynb**:  
+2. **PowerBi Health Analytics Dashboard.pdf**:  
    This Jupyter notebook provides additional analysis that complements the primary analysis. It includes exploratory data analysis, visualizations, and other insights relevant to the project’s goals.
+
+3. **Other Excel/CSV files **
+   These excel files contain data that as generated from the SQL queries.
 
 ## Requirements
 - **MySQL**: For executing SQL queries and data analysis.
-- **PowerBI**: For designing and implementing the interactive dashboard.
-- **Python**: For any additional analysis or processing in Jupyter notebooks (via Pandas, Matplotlib, etc.).
+- **PowerBI**: For designing and implementing the interactive dashboar
 
-## How to Run
-
-1. Download the Kaggle dataset from [this link](https://www.kaggle.com/datasets/ohinhaque/ocd-patient-dataset-demographics-and-clinical-data/).
-2. Load the dataset into MySQL.
-3. Run the queries from the `OCDQuery.sql` file to extract insights.
-4. Use PowerBI to create the interactive dashboard based on the derived insights.
 
 ## Conclusion
 
 This project provides valuable insights into OCD patient demographics and obsession scores, helping to identify patterns in the data. The interactive dashboard created with PowerBI enables users to easily visualize and interpret the findings.
-"""
 
-# Define the file path to save the README
-readme_file_path = '/mnt/data/OCD_Project_README.md'
-
-# Save the content to the README file
-with open(readme_file_path, 'w') as readme_file:
-    readme_file.write(readme_content)
-
-readme_file_path  # Return the file path so the user can download it
