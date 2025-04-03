@@ -1,6 +1,4 @@
-# Create a README file with the provided content
 
-readme_content = """
 # OCD Data Analysis and PowerBI Dashboard
 
 ## Project Overview
